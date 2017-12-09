@@ -14,31 +14,31 @@ from bs4 import BeautifulSoup
 from gtts import gTTS
 
 cl = LINETCR.LINE()
-cl.login(token='EmHCNHLKXReR3GUduca1.UlrDCGkj7dxSpRrrWVSpKq.g3vEaSk5iGVvPWOhpgRVkHPpLhOOwoso1OQ5i+27Iuw=')
+cl.login(token='EnX74epRMp3Drtdbs4Mc.VO404wWDgdw0n0T3WkC0+a.AI/gidvjsdelp7QEu/9RZNQvVeqyoiBBl0TsQvqOwGY=')
 #cl.login(token='')
 cl.loginResult()
 print "Cl-Login Success\n"
 
 ki = LINETCR.LINE()
-ki.login(token='EmzlLew0XTW8IODPhwRe.7oUShdLcs9TUvO5sMkXNpG.ilwEXwSYByrqIwZgDLnuJ97XA1wVn16Z8shYnSsButY')
+ki.login(token='En8I5rHNAp7gup1g6v41.7S41YiepIyUbpnsN+5O2eq.+aeRMbyGkw7tc8CLPcUdj/MrYf9l1xMTQ8PydHMWnII=')
 #ki.login(token='')
 ki.loginResult()
 print "Ki-Login Success\n"
 
 kk = LINETCR.LINE()
-kk.login(token='EmwVS4A5cErcj6NZ939e.uHwIvq3v1iyKQZqnNrhKFG.vllaB0gxYptn8mEr+F0b1/+TSN46FCfTV5Qtm/fEXig=')
+kk.login(token='En4bes9sKSpP05U6vEF9.J/eMhQwd2iuTfxuz19zSsq.rwJk4qaX+S+2q/ZnGc6qVwdLZfc6WHtOeZUim5LXopw=')
 #kk.login(token='')
 kk.loginResult()
 print "Kk-Login Success\n"
 
 kc = LINETCR.LINE()
-kc.login(token='Em8Uj1MRqCDmBO5XiYu5.T2Obu6kd2POuq9/WqXGtnq.Eaqof4oV8GKOTFkpRESnEuh0odD3CEpkOVmeKezp3N0=')
+kc.login(token='EnZGHZU2FvLdPedDGkc5.vn6uYjWWW0JudBqT33gfDq.DON3mc3cs7i/zGZnO9OeXWOzsW4sGSUJVA45GirOdj4=')
 #kc.login(token='')
 kc.loginResult()
 print "Kc-Login Success\n"
 
 kr = LINETCR.LINE()
-kr.login(token='EmLV5twOWfR6ybWCUO0b.sDTrH/zMSMOdJJyRwe3qQW.eJvaeOQigQYb4ukESxrJdzaTHRe1I9LExmgCz5WfzJ4=')
+kr.login(token='EnWk0KvgfwbS1mMTS79b.bqOFJnJxN4T4QjA6tymdIW.cykCgdX2oWPzO+r35Sl3gvg1NwgR+VouTqnqjJLteps=')
 #kr.login(token='')
 kr.loginResult()
 print "Kr-Login Success\n\n=====[Sukses All Login]====="
@@ -47,7 +47,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage ="""
-========『Aan Jutawan』========
+========『Fฺ่่่๋iฺ่่่๋zฺ่่่๋ Bot』========
 
 『Comand In Group』
 ☔Creator
@@ -78,7 +78,8 @@ helpMessage ="""
 🔬Boom @
 🔬Bye all
 🔬@Bye
-🔬Bc: text
+🔬Bc text
+🔬Contact bc text
 🔬Kill ban
 🔬Set member: 
 🔬Ban group: 
@@ -86,7 +87,7 @@ helpMessage ="""
 🔬Leave group:
 🔬Leave all group
 🔬Auto join:on / off
-🔬All join / (Cb1/2/3 join)
+🔬All join / (Fiz1/2/3 join)
 
 『Spesial Comand』
 🛡Apakah
@@ -113,7 +114,6 @@ helpMessage ="""
 🛡Sampul @
 🛡Pp @
 🛡cover @
-🛡Mentionall
 🛡Mybackup
 🛡Salam1/Salam2
 🛡Setlastpoint
@@ -132,7 +132,7 @@ helpMessage ="""
 🛡.reboot
 
 
-Owner Team Boruto Bot 『AanJutawan』
+『Fฺ่่่๋iฺ่่่๋zฺ่่่๋ Bot』
 """
 
 KAC=[cl,ki,kk,kc]
@@ -141,8 +141,8 @@ Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
 Cmid = kc.getProfile().mid
 Bots=[mid,Amid,Bmid,Cmid]
-Creator="ub76a0153a283da9a1443dfb043181335"
-admin=["ub76a0153a283da9a1443dfb043181335","ube597dd17603406a6b278bc62cc5fdcf"]
+Creator="u29b7d9118645af64909adba01fe4cb26"
+admin=["u29b7d9118645af64909adba01fe4cb26"]
 
 wait = {
     "LeaveRoom":True,
@@ -715,15 +715,15 @@ def bot(op):
 #--------------------------------------------------------
             elif msg.text in ["Creator"]:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': Creator}
+                msg.contentMetadata = {'mid': 'u29b7d9118645af64909adba01fe4cb26'}
                 cl.sendMessage(msg)
 		cl.sendText(msg.to,"Itu Yang Bikin BOT")
 #--------------------------------------------------------
             elif msg.text in ["Creator gw"]:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': mid}
+                msg.contentMetadata = {'mid': 'u29b7d9118645af64909adba01fe4cb26'}
                 cl.sendMessage(msg)
-                jawab = ("This is my Creator","My creator is handsome","My creator is cool")
+                jawab = ("This is my Creator")
                 jawaban = random.choice(jawab)
                 tts = gTTS(text=jawaban, lang='en')
                 tts.save('tts.mp3')
@@ -836,6 +836,7 @@ def bot(op):
                     print '[Command] Youtube Search'
 #-------------------------------------------------------
             elif msg.text.lower() == '.reboot':
+	       if msg.from_ in admin:
                     print "[Command]Like executed"
                     try:
                         cl.sendText(msg.to,"Restarting...")
@@ -845,6 +846,7 @@ def bot(op):
                         restart_program()
                         pass
             elif ("Hack " in msg.text):
+	       if msg.from_ in admin:
                 key = eval(msg.contentMetadata["MENTION"])
                 key1 = key["MENTIONEES"][0]["M"]
                 mi = cl.getContact(key1)
@@ -883,7 +885,7 @@ def bot(op):
                 if wait["lang"] == "JP":
                     cl.sendText(msg.to,"Semua Spam Undangan Telah Di Tolak")
                 else:
-                    cl.sendText(msg.to,"拒绝了全部的邀请。")
+                    cl.sendText(msg.to,"Rejected")
 #--------------------------------------------------
             elif "Sampul @" in msg.text:
                 print "[Command]dp executing"
@@ -1029,29 +1031,6 @@ def bot(op):
             elif msg.text in ["Clear ban"]:
                 wait["blacklist"] = {}
                 cl.sendText(msg.to,"clear")
-#-------------------------------------------------
-            elif msg.text in ["Mentionall"]:
-                if msg.toType == 2:
-                    group = cl.getGroup(msg.to)
-                    name = [contact.mid for contact in group.members]
-                    cb = ""
-                    cb2 = ""
-                    strt = int(0)
-                    akh = int(0)
-                    for md in name:
-                       akh = akh + int(5)
-                       cb += """{"S":"""+json.dumps(str(strt))+""","E":"""+json.dumps(str(akh))+""","M":"""+json.dumps(md)+"},"""
-                       strt = strt + int(6)
-                       akh = akh + 1
-                       cb2 += "@nrik\n"
-                    cb = (cb[:int(len(cb)-1)])
-                    msg.contentType = 0
-                    msg.text = cb2
-                    msg.contentMetadata ={'MENTION':'{"MENTIONEES":['+cb+']}','EMTVER':'4'}
-                    try:
-                        cl.sendMessage(msg)
-                    except Exception as error:
-                        print error
 #--------------------------------------------------
             elif "Ambilkan " in msg.text:
                 if msg.toType == 2:
@@ -1067,7 +1046,7 @@ def bot(op):
                         if _name == g.displayName:
                             targets.append(g.mid)
                     if targets == []:
-                        cl.sendText(msg.to,"Gak da orange")
+                        cl.sendText(msg.to,"Gak da orang")
                     else:
                         for target in targets:
                             try:
@@ -1333,7 +1312,7 @@ http://line.me/ti/p/~bot_botv13
                             if _name in g.displayName:
                                 targets.append(g.mid)
                                 if targets == []:
-                                    ki.sendText(msg.to,"Tidak Ada Boss Yuda")
+                                    ki.sendText(msg.to,"Tidak Ada Boss Fiz")
                                 else:
                                     for target in targets:
                                         try:
@@ -1882,7 +1861,7 @@ http://line.me/ti/p/~bot_botv13
                 kk.sendMessage(msg)
                 kc.sendMessage(msg)
 
-            elif msg.text in ["Cb1 Gift","Cb1 gift"]:
+            elif msg.text in ["Fiz1 Gift","Fiz1 gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': '696d7046-843b-4ed0-8aac-3113ed6c0733',
                                     'PRDTYPE': 'THEME',
@@ -1890,7 +1869,7 @@ http://line.me/ti/p/~bot_botv13
                 msg.text = None
                 ki.sendMessage(msg)
 
-            elif msg.text in ["Cb2 Gift","Cb2 gift"]:
+            elif msg.text in ["Fiz2 Gift","Fiz2 gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': '8fe8cdab-96f3-4f84-95f1-6d731f0e273e',
                                     'PRDTYPE': 'THEME',
@@ -1898,7 +1877,7 @@ http://line.me/ti/p/~bot_botv13
                 msg.text = None
                 kk.sendMessage(msg)
 
-            elif msg.text in ["Cb3 Gift","Cb3 gift"]:
+            elif msg.text in ["Fiz3 Gift","Fiz3 gift"]:
                 msg.contentType = 9
                 msg.contentMetadata={'PRDID': 'ae3d9165-fab2-4e70-859b-c14a9d4137c4',
                                     'PRDTYPE': 'THEME',
@@ -1907,30 +1886,29 @@ http://line.me/ti/p/~bot_botv13
                 kc.sendMessage(msg)
 
 #--------------------------------------------------------
-	    elif "Tagall" == msg.text:
-		if msg.from_ in Creator:
-		    group = cl.getGroup(msg.to)
-		    mem = [contact.mid for contact in group.members]
-		    for mm in mem:
-		        xname = cl.getContact(mm).displayName
-		        xlen = str(len(xname)+1)
-		        msg.contentType = 0
-		        msg.text = "@"+xname+" "
-		        msg.contentMetadata = {'MENTION':'{"MENTIONEES":[{"S":"0","E":'+json.dumps(xlen)+',"M":'+json.dumps(mm)+'}]}','EMTVER':'4'}
-		        try:
-		            cl.sendMessage(msg)
-		        except Exception as e:
-			    print str(e)
-		else:
-		    cl.sendText(msg.to, "Tag manual bos jgn males!")
+	    elif msg.text in ["kiwkiw","Tagall"]:
+                group = cl.getGroup(msg.to)
+                k = len(group.members)//100
+                for j in xrange(k+1):
+                    msg = Message(to=msg.to)
+                    txt = u''
+                    s=0
+                    d=[]
+                    for i in group.members[j*100 : (j+1)*100]:
+                        d.append({"S":str(s), "E" :str(s+8), "M":i.mid})
+                        s += 9
+                        txt += u'@Krampus\n'
+                    msg.text = txt
+                    msg.contentMetadata = {u'MENTION':json.dumps({"MENTIONEES":d})}
+                    cl.sendMessage(msg)
 #--------------------------CEK SIDER------------------------------
 
-            elif "setview" in msg.text:
+            elif "Setview" in msg.text:
                 subprocess.Popen("echo '' > dataSeen/"+msg.to+".txt", shell=True, stdout=subprocess.PIPE)
                 cl.sendText(msg.to, "Checkpoint checked!")
                 print "@setview"
 
-            elif "viewseen" in msg.text:
+            elif "Viewseen" in msg.text:
 	        lurkGroup = ""
 	        dataResult, timeSeen, contacts, userList, timelist, recheckData = [], [], [], [], [], []
                 with open('dataSeen/'+msg.to+'.txt','r') as rr:
@@ -2007,7 +1985,7 @@ http://line.me/ti/p/~bot_botv13
                         cl.sendText(msg.to, "Sider ga bisa di read cek setpoint dulu bego tinggal ketik\nSetlastpoint\nkalo mau liat sider ketik\nViewlastseen")
                     print "Viewlastseen"
 #---------------------Sider ala anu---------------
-            elif msg.text == "Cek om":
+            elif msg.text == "Cek":
                     cl.sendText(msg.to, "Set point.")
                     try:
                         del wait2['readPoint'][msg.to]
@@ -2031,7 +2009,7 @@ http://line.me/ti/p/~bot_botv13
                                 chiya += rom[1] + "\n"
                         cl.sendText(msg.to, "╔═══════════════%s\n╠════════════════\n%s╠═══════════════\n║Readig point creation:\n║ [%s]\n╚════════════════"  % (wait2['readMember'][msg.to],chiya,setTime[msg.to]))
                     else:
-                        cl.sendText(msg.to, "Ketik kau dulu Cek baru Sider")
+                        cl.sendText(msg.to, "Kau ketik dulu Cek baru Sider")
 #--------------------------------------------------------
 
 #KICK_BY_TAG
@@ -2073,6 +2051,7 @@ http://line.me/ti/p/~bot_botv13
 		cl.sendText(msg.to,"Success recover")
 #--------------------------------------------------------
 	    elif msg.text in ["Remove all chat"]:
+              if msg.from_ in admin:
 		cl.removeAllMessages(op.param2)
 		ki.removeAllMessages(op.param2)
 		kk.removeAllMessages(op.param2)
@@ -2088,6 +2067,7 @@ http://line.me/ti/p/~bot_botv13
                     cl.sendText(msg.to,"It can't be used besides the group.")
 #--------------------------------------------------------
             elif "Kick: " in msg.text:
+              if msg.from_ in admin:
                 midd = msg.text.replace("Kick: ","")
 		kicker = [ki,kk,kc]
 		if midd not in admin:
@@ -2096,6 +2076,7 @@ http://line.me/ti/p/~bot_botv13
 		    cl.sendText(msg.to,"Admin Detected")
 #--------------------------------------------------------
             elif "Invite: " in msg.text:
+              if msg.from_ in admin:
                 midd = msg.text.replace("Invite: ","")
                 cl.findAndAddContactsByMid(midd)
                 cl.inviteIntoGroup(msg.to,[midd])
@@ -2104,15 +2085,18 @@ http://line.me/ti/p/~bot_botv13
                 gs = cl.getGroup(msg.to)
                 ki.sendText(msg.to,"Selamat datang di "+ gs.name)
 #--------------------------------------------------------
-	    elif "Bc: " in msg.text:
-		bc = msg.text.replace("Bc: ","")
-		gid = cl.getGroupIdsJoined()
-		if msg.from_ in admin:
-		    for i in gid:
-			cl.sendText(i,"=======[BROADCAST]=======\n\n"+bc+"\n\nContact Me : line.me/ti/p/~alrahmantoganteng")
-		    cl.sendText(msg.to,"Success BC BosQ")
-		else:
-		    cl.sendText(msg.to,"Khusus Admin")
+	    elif "Bc " in msg.text:
+			  if msg.from_ in admin:
+				bctxt = msg.text.replace("Bc ","")
+				n = cl.getGroupIdsJoined()
+				for manusia in n:
+					cl.sendText(manusia, (bctxt))
+            elif "Contact bc " in msg.text:
+			  if msg.from_ in admin:
+				bctxt = msg.text.replace("Contact bc ", "")
+				t = cl.getAllContactIds()
+				for manusia in t:
+					cl.sendText(manusia, (bctxt))
 #--------------------------------------------------------
             elif msg.text in ["Cancelall"]:
                 gid = cl.getGroupIdsInvited()
@@ -2120,19 +2104,19 @@ http://line.me/ti/p/~bot_botv13
                     cl.rejectGroupInvitation(i)
                 cl.sendText(msg.to,"All invitations have been refused")
 
-            elif msg.text in ["Cb1 Cancelall"]:
+            elif msg.text in ["Fiz1 Cancelall"]:
                 gid = ki.getGroupIdsInvited()
                 for i in gid:
                     ki.rejectGroupInvitation(i)
                 ki.sendText(msg.to,"All invitations have been refused")
 
-            elif msg.text in ["Cb2 Cancelall"]:
+            elif msg.text in ["Fiz2 Cancelall"]:
                 gid = kk.getGroupIdsInvited()
                 for i in gid:
                     kk.rejectGroupInvitation(i)
                 kk.sendText(msg.to,"All invitations have been refused")
 
-            elif msg.text in ["Cb3 Cancelall"]:
+            elif msg.text in ["Fiz3 Cancelall"]:
                 gid = kc.getGroupIdsInvited()
                 for i in gid:
                     kc.rejectGroupInvitation(i)
@@ -2174,7 +2158,7 @@ http://line.me/ti/p/~bot_botv13
 		else:
 		    cl.sendText(msg.to,"Sape lu!")
 
-            elif msg.text in ["Cb1 join"]:
+            elif msg.text in ["Fiz1 join"]:
 		if msg.from_ in admin:
                     X = cl.getGroup(msg.to)
                     X.preventJoinByTicket = False
@@ -2188,7 +2172,7 @@ http://line.me/ti/p/~bot_botv13
 		else:
 		    cl.sendText(msg.to,"Sape lu!")
 
-            elif msg.text in ["Cb2 join"]:
+            elif msg.text in ["Fiz2 join"]:
 		if msg.from_ in admin:
                     X = cl.getGroup(msg.to)
                     X.preventJoinByTicket = False
@@ -2202,7 +2186,7 @@ http://line.me/ti/p/~bot_botv13
 		else:
 		    cl.sendText(msg.to,"Sape lu!")
 
-            elif msg.text in ["Cb3 join"]:
+            elif msg.text in ["Fiz3 join"]:
 		if msg.from_ in admin:
                     G = cl.getGroup(msg.to)
                     ginfo = cl.getGroup(msg.to)
@@ -2217,7 +2201,7 @@ http://line.me/ti/p/~bot_botv13
 		    cl.sendText(msg.to,"Sape lu!")
 
 #--------------------------------------------------------
-	    elif msg.text in ["Cb Like"]:
+	    elif msg.text in ["Fiz Like"]:
 		try:
 		    print "activity"
 		    url = cl.activity(limit=1)
@@ -2226,10 +2210,10 @@ http://line.me/ti/p/~bot_botv13
 		    ki.like(url['result']['posts'][0]['userInfo']['mid'], url['result']['posts'][0]['postInfo']['postId'], likeType=1001)
 		    kk.like(url['result']['posts'][0]['userInfo']['mid'], url['result']['posts'][0]['postInfo']['postId'], likeType=1001)
 		    kc.like(url['result']['posts'][0]['userInfo']['mid'], url['result']['posts'][0]['postInfo']['postId'], likeType=1001)
-		    cl.comment(url['result']['posts'][0]['userInfo']['mid'], url['result']['posts'][0]['postInfo']['postId'], "Mau Bot Protect?\nFollow ig : @alrahmanto_selebgram\nLalu dm ke dia")
-		    ki.comment(url['result']['posts'][0]['userInfo']['mid'], url['result']['posts'][0]['postInfo']['postId'], "Mau Bot Protect?\nFollow ig : @alrahmanto_selebgram\nLalu dm ke dia")
-		    kk.comment(url['result']['posts'][0]['userInfo']['mid'], url['result']['posts'][0]['postInfo']['postId'], "Mau Bot Protect?\nFollow ig : @alrahmanto_selebgram\nLalu dm ke dia")
-		    kc.comment(url['result']['posts'][0]['userInfo']['mid'], url['result']['posts'][0]['postInfo']['postId'], "Mau Bot Protect?\nFollow ig : @alrahmanto_selebgram\nLalu dm ke dia")
+		    cl.comment(url['result']['posts'][0]['userInfo']['mid'], url['result']['posts'][0]['postInfo']['postId'], "Fฺ่่่๋iฺ่่่๋zฺ่่่๋ Line://ti/p/~afiz1928")
+		    ki.comment(url['result']['posts'][0]['userInfo']['mid'], url['result']['posts'][0]['postInfo']['postId'], "Fฺ่่่๋iฺ่่่๋zฺ่่่๋ Line://ti/p/~afiz1928")
+		    kk.comment(url['result']['posts'][0]['userInfo']['mid'], url['result']['posts'][0]['postInfo']['postId'], "Fฺ่่่๋iฺ่่่๋zฺ่่่๋ Line://ti/p/~afiz1928")
+		    kc.comment(url['result']['posts'][0]['userInfo']['mid'], url['result']['posts'][0]['postInfo']['postId'], "Fฺ่่่๋iฺ่่่๋zฺ่่่๋ Line://ti/p/~afiz1928")
 		    cl.sendText(msg.to, "Success~")
 		except Exception as E:
 		    try:
