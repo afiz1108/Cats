@@ -2249,9 +2249,9 @@ http://line.me/ti/p/~bot_botv13
             elif msg.text in ["Absen"]:
               if msg.from_ in admin:
 		cl.sendText(msg.to,"Pasukan absen!!")
-                ki.sendText(msg.to,"Cb1 Hadiir  \(ˆ▿ˆ)/")
-                kk.sendText(msg.to,"Cb2 Hadiir  \(ˆ▿ˆ)/")
-                kc.sendText(msg.to,"Cb3 Hadiir  \(ˆ▿ˆ)/")
+                ki.sendText(msg.to,"Fiz1 Hadiir  \(ˆ▿ˆ)/")
+                kk.sendText(msg.to,"Fiz2 Hadiir  \(ˆ▿ˆ)/")
+                kc.sendText(msg.to,"Fiz3 Hadiir  \(ˆ▿ˆ)/")
 
 #--------------------------------------------------------
             elif msg.text in ["Sp","Speed","speed"]:
